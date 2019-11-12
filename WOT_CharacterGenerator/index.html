@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Character generator</title>
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div id="linkBox">
+        <nav>
+               <a href="#" id="submitButton"><li>Create Avatar <i class="fas fa-user-astronaut"></i></li></a>
+                <a href="#" id="clientLoopButton"><lI>Loop on web <i class="fab fa-chrome"></i></i></lI></a>
+                <a href="#" id="piLoopButton"><li>Loop on PI <i class="fab fa-raspberry-pi"></i></li></a>
+               <a href="#" id="showButton"><li>Created avatars <i class="fas fa-users"></i></li><a>
+                <a href="#" id="logout"><li>Logout</li><a>
+        </nav>
+    </div>
+   
+
+    <div class="characterContainer">
+       <div class="row">
+           <div class="cube" data-y="0" data-x="0" data-coors="00"></div>
+           <div class="cube" data-y="0" data-x="1" data-coors="01"></div>
+           <div class="cube" data-y="0" data-x="2" data-coors="02"></div>
+           <div class="cube" data-y="0" data-x="3" data-coors="03"></div>
+           <div class="cube" data-y="0" data-x="4" data-coors="04"></div>
+           <div class="cube" data-y="0" data-x="5" data-coors="05"></div>
+           <div class="cube" data-y="0" data-x="6" data-coors="06"></div>
+           <div class="cube" data-y="0" data-x="7" data-coors="07"></div>
+       </div>
+       <div class="row">
+        <div class="cube" data-y="1" data-x="0" data-coors="10"></div>
+        <div class="cube" data-y="1" data-x="1" data-coors="11"></div>
+        <div class="cube" data-y="1" data-x="2" data-coors="12"></div>
+        <div class="cube" data-y="1" data-x="3" data-coors="13"></div>
+        <div class="cube" data-y="1" data-x="4" data-coors="14"></div>
+        <div class="cube" data-y="1" data-x="5" data-coors="15"></div>
+        <div class="cube" data-y="1" data-x="6" data-coors="16"></div>
+        <div class="cube" data-y="1" data-x="7" data-coors="17"></div>
+        </div>
+    <div class="row">
+        <div class="cube" data-y="2" data-x="0" data-coors="20"></div>
+        <div class="cube" data-y="2" data-x="1" data-coors="21"></div>
+        <div class="cube" data-y="2" data-x="2" data-coors="22"></div>
+        <div class="cube" data-y="2" data-x="3" data-coors="23"></div>
+        <div class="cube" data-y="2" data-x="4" data-coors="24"></div>
+        <div class="cube" data-y="2" data-x="5" data-coors="25"></div>
+        <div class="cube" data-y="2" data-x="6" data-coors="26"></div>
+        <div class="cube" data-y="2" data-x="7" data-coors="27"></div>
+    </div>
+    <div class="row">
+        <div class="cube" data-y="3" data-x="0" data-coors="30"></div>
+        <div class="cube" data-y="3" data-x="1" data-coors="31"></div>
+        <div class="cube" data-y="3" data-x="2" data-coors="32"></div>
+        <div class="cube" data-y="3" data-x="3" data-coors="33"></div>
+        <div class="cube" data-y="3" data-x="4" data-coors="34"></div>
+        <div class="cube" data-y="3" data-x="5" data-coors="35"></div>
+        <div class="cube" data-y="3" data-x="6" data-coors="36"></div>
+        <div class="cube" data-y="3" data-x="7" data-coors="37"></div>
+    </div>
+    <div class="row">
+        <div class="cube" data-y="4" data-x="0" data-coors="40"></div>
+        <div class="cube" data-y="4" data-x="1" data-coors="41"></div>
+        <div class="cube" data-y="4" data-x="2" data-coors="42"></div>
+        <div class="cube" data-y="4" data-x="3" data-coors="43"></div>
+        <div class="cube" data-y="4" data-x="4" data-coors="44"></div>
+        <div class="cube" data-y="4" data-x="5" data-coors="45"></div>
+        <div class="cube" data-y="4" data-x="6" data-coors="46"></div>
+        <div class="cube" data-y="4" data-x="7" data-coors="47"></div>
+    </div>
+    <div class="row">
+        <div class="cube" data-y="5" data-x="0" data-coors="50"></div>
+        <div class="cube" data-y="5" data-x="1" data-coors="51"></div>
+        <div class="cube" data-y="5" data-x="2" data-coors="52"></div>
+        <div class="cube" data-y="5" data-x="3" data-coors="53"></div>
+        <div class="cube" data-y="5" data-x="4" data-coors="54"></div>
+        <div class="cube" data-y="5" data-x="5" data-coors="55"></div>
+        <div class="cube" data-y="5" data-x="6" data-coors="56"></div>
+        <div class="cube" data-y="5" data-x="7" data-coors="57"></div>
+    </div>
+    <div class="row">
+        <div class="cube" data-y="6" data-x="0" data-coors="60"></div>
+        <div class="cube" data-y="6" data-x="1" data-coors="61"></div>
+        <div class="cube" data-y="6" data-x="2" data-coors="62"></div>
+        <div class="cube" data-y="6" data-x="3" data-coors="63"></div>
+        <div class="cube" data-y="6" data-x="4" data-coors="64"></div>
+        <div class="cube" data-y="6" data-x="5" data-coors="65"></div>
+        <div class="cube" data-y="6" data-x="6" data-coors="66"></div>
+        <div class="cube" data-y="6" data-x="7" data-coors="67"></div>
+    </div>
+    <div class="row">
+        <div class="cube" data-y="7" data-x="0" data-coors="70"></div>
+        <div class="cube" data-y="7" data-x="1" data-coors="71"></div>
+        <div class="cube" data-y="7" data-x="2" data-coors="72"></div>
+        <div class="cube" data-y="7" data-x="3" data-coors="73"></div>
+        <div class="cube" data-y="7" data-x="4" data-coors="74"></div>
+        <div class="cube" data-y="7" data-x="5" data-coors="75"></div>
+        <div class="cube" data-y="7" data-x="6" data-coors="76"></div>
+        <div class="cube" data-y="7" data-x="7" data-coors="77"></div>
+    </div>
+    </div>
+    <div id="savedAvatars">
+    </div>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-auth.js"></script>
+
+<script src="https://kit.fontawesome.com/15d599f7dd.js" crossorigin="anonymous"></script>
+
+<script src="js/main.js"></script>
+<script src="js/index.js"></script>
+</html>

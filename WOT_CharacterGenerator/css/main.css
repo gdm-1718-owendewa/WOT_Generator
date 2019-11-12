@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+}
+.characterContainer{
+    
+    max-width:800px;
+    margin:4% auto;
+}
+.characterContainer2{
+    max-width:400px;
+    margin:4%;
+    display: inline;
+}
+#savedAvatars{
+    max-width:800px;
+    margin:4% auto;
+}
+
+.row{
+    max-width:800px;
+    height:75px;
+}
+.row + .row{
+    margin-top:2%;
+}
+.savedRow{
+    max-width:800px;
+    height:75px;
+}
+.savedRow + .savedRow{
+    margin-top:2%;
+}
+.savedRow2{
+    max-width:400px;
+    height:75px;
+}
+.savedRow2 + .savedRow2{
+    margin-top:-8%;
+}
+.cube{
+    background-color:#E8E8E8;
+    box-sizing: border-box;
+    width:75px;
+    height:75px;
+    display: inline-block;
+}
+.cube + .cube{
+    margin-left:3.07%;
+}
+.cube2{
+    background-color:#E8E8E8;
+    box-sizing: border-box;
+    width:37.5px;
+    height:37.5px;
+    display: inline-block;
+}
+.cube2 + .cube2{
+    margin-left:3.07%;
+}
+.active{
+    background: rgb(221,197,83);
+    background: linear-gradient(90deg, rgba(230,65,161,1)  0%, rgba(221,197,83,1) 100%);
+}
+a{
+    text-decoration: none;
+}
+#linkBox{
+    position: absolute;
+}
+#linkBox nav li{
+    list-style-type: none;
+    display: block;
+    padding:5% 3%;
+    background: rgb(221,197,83);
+    background: linear-gradient(90deg, rgba(221,197,83,1) 0%, rgba(230,65,161,1) 100%);
+    margin-bottom:3%;
+    margin-left:15%;
+    width:300px;
+    text-align:center;
+
+}
+#linkBox nav a{
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#savedAvatars{
+    position: relative;
+    margin-left:76%;
+    margin-top:-47.5%;
+    
+}
+
+#loginForm{
+    max-width:400px;
+    height:200px;
+    margin:20px auto;
+}
+#loginForm input{
+    display:block;
+    width:300px;
+    height:25px;
+    padding:1%;
+    margin-left:50px;
+    margin-top:20px;
+}
+#loginForm h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:35%;
+    padding-top:10%;
+}
+#loginForm a{
+    margin-top:10%;
+}
+#buttons{
+    width:400px;
+    margin:0px auto;
+}
+#buttons a{
+    margin-left:65px;
+    text-align: center;
+    padding: 2% 3%;
+    font-family:Arial, Helvetica, sans-serif
+}
+#buttons a+a{
+    margin-left:75px;
+}
